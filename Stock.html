@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Stock Market</title>
     <script src = "https://kit.fontawesome.com/04074e904a.js" crossorigin = "anonymous"></script>
+    <script src = "script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="nav">
@@ -13,30 +15,53 @@
     <input type="text" class = "stock-search" placeholder="Search 50,000 stocks">
     <button class = "search-button"><i class="fa-solid fa-magnifying-glass" ></i></button>
 
-    <input type="text" placeholder="US & Canada" class = "country">
-    <button class = "down-arrow"><i class="fa-solid fa-caret-down"></i></button>
+    <select >
+        <option value=””>US & Canada</option>
+        <option value=””>-Finland</option>
+        <option value=””>-Denmark</option>
+        <option value=””>-Norway</option>
+        <option value=””>-Sweden</option>
+        <option value=””>-UK</option>
+        <option value=””>-Germany</option>
+        <option value=””>-Ireland</option>
+     </select>
 
     <button class = "decoration">PG</button>
+    <div id="Clock" class="time">00:00:00</div>
     </div>
     <div class="content">
-        <div class="infobox">
+        
           <div class="market-overview">
               <a href=""><i class="fa-solid fa-chart-line"></i></a>
-              <h2>Market Overview</h2>
+              <h2>Market<br>Overview</h2>
           </div>
           <div class="news">
             <a href=""><i class="fa-solid fa-newspaper"></i></a>
-            <h2>news</h2>
+            <h2>News</h2>
         </div>
         <div class="crypto">
             <a href=""><i class="fa-solid fa-coins"></i></a>
-            <h2>Crypto-<br>currencies</h2>
+            <h2>Crypto<br>currencies</h2>
         </div>
         <div class="dividend">
             <a href=""><i class="fa-solid fa-chart-pie"></i></a>
             <h2>Dividend</h2>
         </div>
+        <div class="dividend">
+            <a href=""><i class="fa-regular fa-money-bill-1"></i></a>
+            <h2>Stock<br>Options</h2>
+        </div>
+        <div class="dividend">
+            <a href=""><i class="fa-brands fa-pagelines"></i></a>
+            <h2>Commodities</h2>
+        </div>
+    
     </div>
+    <div class="user-info">
+        <p><span>Welcome</span> to Preston Graber's Stock Application! This application allows you
+            to explore the market's performance. Simply use the search bar to specify
+            a stock or click one of the icons above for a simplified experience.
+        </p>
     </div>
 </body>
 </html>
