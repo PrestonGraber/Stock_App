@@ -371,3 +371,35 @@ td{
     font-family: 'Raleway', sans-serif;
     color: white;
 }
+/*CryptoCurrency page*/
+.crypto-content{
+    position:absolute;
+    border-radius: 10px;
+    top: 20%;
+    width: 1000px;
+    height: 450px;
+    background-color:rgb(15, 24, 27);
+    cursor: default;
+}
+.crypto-content table{
+    cursor: default;
+    text-align: center;
+    border-spacing: 0;
+    margin: 35px 5px 0px 5px;
+    
+}
+.crypto-content th{
+  
+    font-family: 'Raleway', sans-serif;
+    color:rgb(128, 128, 128);
+    width: 200px;
+    font-size: 12px;
+    padding: 5px 25px;
+}
+.crypto-content td{
+   
+    font-family: 'Raleway', sans-serif;
+}
+.crypto-content tr{
+   
+}
