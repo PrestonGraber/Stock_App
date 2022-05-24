@@ -1,3 +1,4 @@
+// time keeping
 setInterval(displayTime, 10);
 function displayTime() {
 

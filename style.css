@@ -251,3 +251,82 @@ h2{
         top: 59%;
     }
 }
+/* MarketOverview html*/
+.home{
+   
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    right: 6%;
+    top: 12%;
+    text-decoration: none;
+}
+.nav a{
+    text-shadow: 0px 0px 5px white;
+}
+.home:hover{
+    color: #31aba6;
+}
+.market-content{
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    align-items:flex-start;
+    justify-content: top;
+    top: 18%;
+    background-color:rgb(15, 24, 27);
+    width: 1000px;
+    height: 425px;
+    cursor: default;
+}
+.top-gain{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-shadow: 0px 0px 2px white;
+
+}
+.gainers{
+    border-spacing: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 500px;
+    border-right: 1px solid rgb(128, 128, 128);
+    margin-top: 10px;
+}
+ tr{
+    width: 100%;
+    height: 50px;
+}
+td{
+   
+    padding: 0px 25px;
+}
+.gainers th{
+    font-family: 'Raleway', sans-serif;
+    color:rgb(128, 128, 128);
+    font-size: 12px;
+    padding: 5px 25px;
+}
+.fallers{
+    border-spacing: 0;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    width: 500px;
+}
+.fallers th{
+    font-family: 'Raleway', sans-serif;
+    color:rgb(128, 128, 128);
+    font-size: 12px;
+    padding: 5px 25px;
+}
+.green{
+    color: #31aba6;
+}
+.red{
+ color: rgb(185, 5, 5);
+}
+.black{
+    background-color:rgb(8, 17, 20);
+}
